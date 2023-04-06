@@ -40,7 +40,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   spaceBetween: 30,
   centeredSlides: true,
-  speed: 1700,
+  speed: 3500,
   loop: true,
   on: {
     init: function () {
@@ -57,13 +57,13 @@ var swiper = new Swiper(".mySwiper", {
         targets: ".swiper-slide-active .tagline",
         translateY: [200, 0],
         opacity: [0, 1],
-        duration: 1000,
+        duration: 1800,
         easing: "easeOutQuad",
       })
     },
   },
   autoplay: {
-    delay: 3500,
+    delay: 2000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -76,19 +76,19 @@ var swiper = new Swiper(".mySwiper", {
   },
 })
 
-const juan = new Swiper("#juan", {
-  direction: "horizontal",
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    type: "bullets",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-})
+// const juan = new Swiper("#juan", {
+//   direction: "horizontal",
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     type: "bullets",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// })
 
 const pepe = new Swiper("#pepe", {
   direction: "horizontal",
@@ -146,10 +146,9 @@ function contador() {
 }
 
 const myCountdown = new countdown({
-  target: '.countdown',
-  dayWord: ' days',
-  hourWord: ' hours',
-  minWord: ' mins',
-  secWord: ' seconds'
-});
-
+  target: ".countdown",
+  dayWord: " days",
+  hourWord: " hours",
+  minWord: " mins",
+  secWord: " seconds",
+})
