@@ -371,11 +371,6 @@ position: relative;
   display: flex;
   align-items: center;
 }
-.img_slider2 {
-  border: solid red;
-  width: 80%;
-  
-}
 .cont_txt_slider3 {
   display: flex;
   justify-content: space-evenly;
@@ -386,10 +381,25 @@ position: relative;
   background:#101010f8;
 }
 .sponsors_op2 {
+  padding:4rem;
+
+}
+/* .containe{
+  width: 30%;
+  height: 100px;
   display: flex;
   justify-content: center;
-  padding: 5rem 15rem;
+  align-items: center;
+  background-image: url('../img/1\)Woodstock-Fund2.png');
+  background-size: cover;
+  background-position: center;
 }
+
+.image {
+  width: 200px;
+  height: 100%; 
+  background-color: transparent;
+} */
 
 /* (((((((((( footer)))))))))) */
 .cont_footer{
