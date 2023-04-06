@@ -91,7 +91,7 @@ const juan = new Swiper("#juan", {
 })
 
 const pepe = new Swiper("#pepe", {
-  direction: "vertical",
+  direction: "horizontal",
   loop: true,
   pagination: {
     el: ".swiper-pagination",
@@ -99,8 +99,8 @@ const pepe = new Swiper("#pepe", {
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    // nextEl: ".swiper-button-next",
+    // prevEl: ".swiper-button-prev",
   },
 })
 var nav = document.querySelector("nav")
